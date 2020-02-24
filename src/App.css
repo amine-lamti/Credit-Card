@@ -1,38 +1,22 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+    display: flex;
+    justify-content: space-around;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.head {
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    background-image: url("https://previews.123rf.com/images/alexlmx/alexlmx1509/alexlmx150900125/44705873-carte-de-cr%C3%A9dit-vierge-isol%C3%A9-sur-fond-blanc.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inpu {
+    margin-bottom: 20px;
+    ;
 }
